@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nishant Kumar | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background: #f5f5f5; color: #333; }
+    header { background: #24292e; color: #fff; padding: 2rem; text-align: center; }
+    nav { background: #333; color: white; display: flex; justify-content: center; gap: 2rem; padding: 1rem 0; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; }
+    .container { max-width: 1000px; margin: auto; }
+    .skills, .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+    .card { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    footer { background: #24292e; color: white; text-align: center; padding: 2rem 1rem; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      nav { flex-direction: column; gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nishant Kumar</h1>
+    <p>Full Stack Developer | Python & Django Enthusiast</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Detail-oriented and self-motivated Full Stack Developer with hands-on experience in building scalable web applications using Django and React.</p>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="card"><strong>Languages:</strong><p>Python, JavaScript, HTML5, CSS3</p></div>
+        <div class="card"><strong>Frameworks & Libraries:</strong><p>Django, ReactJS, Bootstrap</p></div>
+        <div class="card"><strong>Databases:</strong><p>PostgreSQL, MySQL, SQLite</p></div>
+        <div class="card"><strong>Tools:</strong><p>Git, GitHub, VS Code, Postman</p></div>
+        <div class="card"><strong>Concepts:</strong><p>REST APIs, CRUD, MVC, Responsive Design</p></div>
+        <div class="card"><strong>Soft Skills:</strong><p>Problem Solving, Communication</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Placement Progression System</h3>
+          <p>Centralized system to manage student placements using ReactJS and Django.</p>
+        </div>
+        <div class="card">
+          <h3>College Management App</h3>
+          <p>Manages student records and attendance using Django and MySQL.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> nishantkumarrcm001@gmail.com</p>
+      <p><strong>Phone:</strong> +91 98776-27039</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nishant-k-b19b12226" target="_blank">linkedin.com/in/nishant-k-b19b12226</a></p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Nishant Kumar. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
